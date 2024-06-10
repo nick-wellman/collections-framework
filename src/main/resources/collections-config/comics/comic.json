@@ -1,0 +1,22 @@
+{
+  "name": "comic",
+  "tables": [
+    {
+      "name": "comic",
+      "id-column": "id",
+      "type": "primary",
+      "properties": [
+        {
+          "name": "name",
+          "column": "name",
+          "data-type": "string"
+        },
+        {
+          "name": "cover",
+          "column": "cover",
+          "data-type": "string"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "memeTag",
+  "tables": [
+    {
+      "name": "meme_tag_vw",
+      "id-column": "id",
+      "type": "primary",
+      "properties": [
+        {
+          "name": "id",
+          "column": "id",
+          "data-type": "string"
+        },
+        {
+          "name": "uuid",
+          "column": "uuid",
+          "data-type": "string"
+        },
+        {
+          "name": "tag",
+          "column": "tag",
+          "data-type": "string"
+        }
+      ]
+    }
+  ]
+}

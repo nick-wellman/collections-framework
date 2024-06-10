@@ -1,0 +1,17 @@
+{
+  "name": "meme",
+  "tables": [
+    {
+      "name": "meme_vw",
+      "id-column": "id",
+      "type": "primary",
+      "properties": [
+        {
+          "name": "id",
+          "column": "id",
+          "data-type": "string"
+        }
+      ]
+    }
+  ]
+}
